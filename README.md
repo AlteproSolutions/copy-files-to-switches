@@ -16,6 +16,13 @@ A script for copying files to multiple switches effortlessly.
     python3 -m venv .venv
     ```
 
+    or
+
+    ```bash
+    python -m venv .venv
+
+    ```
+
 3. **Activate the virtual environment:**
 
     Linux:
