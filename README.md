@@ -34,7 +34,7 @@ A script for copying files to multiple switches effortlessly.
     Windows:
 
     ```powershell
-    .venv/bin/activate
+    .venv/Scripts/activate
     ```
 
 4. **Install dependencies:**

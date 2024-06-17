@@ -20,7 +20,7 @@ def load_config(config_path="config.yaml"):
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     config_file = os.path.join(script_dir, config_path)
-    template_file = os.path.join(script_dir, f"{script_dir}" + "config_template.yaml")
+    template_file = os.path.join(script_dir, f"{script_dir}" + "/config_template.yaml")
 
     # Check if config.yaml exists
     if not os.path.exists(config_file):
