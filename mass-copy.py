@@ -92,6 +92,10 @@ async def main():
     # Authentication details
     username = config['SSH_USERNAME']
     password = config['SSH_PASSWORD']
+
+    if not username or not password:
+        print("Please enter your username and password in the config.yaml file ! Quitting ...")
+        quit()
     
     # Directories
     files_directory = f"{script_dir}/files_to_copy/"
